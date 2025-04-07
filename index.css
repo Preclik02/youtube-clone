@@ -1,0 +1,42 @@
+#video {
+	position: relative;
+	background-color: black;
+	width: 1300px;
+	height: auto;
+	left: 100px;
+	top: 100px;
+	border-radius: 20px;
+}
+#search {
+	position: relative;
+	background-color: gray;
+	border-radius: 40px;
+	width: 700px;
+	height: 40px;
+	top: -630px;
+	left: 500px;
+	font-size: 25px;
+}
+#microphone{
+	position: relative;
+	background-color: gray;
+	width: 60px;
+	height: 60px;
+	border-radius: 50px;
+	top: -685px;
+	left: 1250px;
+}	
+#microphone1 {
+	position: relative;
+	left: 18px;
+	top: 13px;
+}
+#minVid{
+	position: relative;
+	background-color: black;
+	width: 230px;
+	height: 150px;
+	border-radius: 20px;
+	left: 1450px;
+	top: -650px;
+}
