@@ -31,12 +31,30 @@
 	left: 18px;
 	top: 13px;
 }
-#minVid{
+#minVid0{
 	position: relative;
 	background-color: black;
 	width: 230px;
 	height: 150px;
 	border-radius: 20px;
 	left: 1450px;
-	top: -650px;
+	top: -680px;
+}
+#minVid01{
+	position: relative;
+	font-size: 25px;
+	left: 250px;
+	color: black;
+}
+#minVid02{
+	position: relative;
+	left: 250px;
+	top: -15px;
+	color: black;
+}
+#minVid03{
+	position: relative;
+	left: 250px;
+	top: -20px;
+	color: black;
 }
