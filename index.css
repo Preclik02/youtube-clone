@@ -1,3 +1,24 @@
+#line1{
+	position: relative;
+	width: 25px;
+	height: 3px;
+	background-color: black;
+	top: -733px;
+}
+#line2{
+	position: relative;
+	width: 25px;
+	height: 3px;
+	background-color: black;
+	top: -744px;
+}
+#line3{
+	position: relative;
+	width: 25px;
+	height: 3px;
+	background-color: black;
+	top: -755px;
+}
 #video {
 	position: relative;
 	background-color: black;
@@ -31,7 +52,7 @@
 	left: 18px;
 	top: 13px;
 }
-#minVid0{
+#minVid01{
 	position: relative;
 	background-color: black;
 	width: 230px;
@@ -40,21 +61,202 @@
 	left: 1450px;
 	top: -680px;
 }
-#minVid01{
+#minVid02{
 	position: relative;
 	font-size: 25px;
 	left: 250px;
 	color: black;
 }
-#minVid02{
+#minVid03{
 	position: relative;
 	left: 250px;
 	top: -15px;
 	color: black;
 }
-#minVid03{
+#minVid04{
 	position: relative;
 	left: 250px;
 	top: -20px;
 	color: black;
+}
+#minVid11{
+	position: relative;
+	background-color: black;
+	width: 230px;
+	height: 150px;
+	border-radius: 20px;
+	left: 1450px;
+	top: -680px;
+}
+#minVid12{
+	position: relative;
+	font-size: 25px;
+	left: 250px;
+	color: black;
+}
+#minVid13{
+	position: relative;
+	left: 250px;
+	top: -15px;
+	color: black;
+}
+#minVid14{
+	position: relative;
+	left: 250px;
+	top: -20px;
+	color: black;
+}
+#minVid21{
+	position: relative;
+	background-color: black;
+	width: 230px;
+	height: 150px;
+	border-radius: 20px;
+	left: 1450px;
+	top: -680px;
+}
+#minVid22{
+	position: relative;
+	font-size: 25px;
+	left: 250px;
+	color: black;
+}
+#minVid23{
+	position: relative;
+	left: 250px;
+	top: -15px;
+	color: black;
+}
+#minVid24{
+	position: relative;
+	left: 250px;
+	top: -20px;
+	color: black;
+}
+#minVid31{
+	position: relative;
+	background-color: black;
+	width: 230px;
+	height: 150px;
+	border-radius: 20px;
+	left: 1450px;
+	top: -680px;
+}
+#minVid32{
+	position: relative;
+	font-size: 25px;
+	left: 250px;
+	color: black;
+}
+#minVid33{
+	position: relative;
+	left: 250px;
+	top: -15px;
+	color: black;
+}
+#minVid34{
+	position: relative;
+	left: 250px;
+	top: -20px;
+	color: black;
+}
+#minVid41{
+	position: relative;
+	background-color: black;
+	width: 230px;
+	height: 150px;
+	border-radius: 20px;
+	left: 1450px;
+	top: -680px;
+}
+#minVid42{
+	position: relative;
+	font-size: 25px;
+	left: 250px;
+	color: black;
+}
+#minVid43{
+	position: relative;
+	left: 250px;
+	top: -15px;
+	color: black;
+}
+#minVid44{
+	position: relative;
+	left: 250px;
+	top: -20px;
+	color: black;
+}
+#nazev{
+	position: relative;
+	top: -1070px;
+	font-size: 35px;
+	left: 100px;
+}
+#pfp{
+	position: relative;
+	background: black;	
+	border-radius: 50px;
+}
+#nazev1{
+	position: relative;
+	top: -990px;
+	left: 175px;
+	font-size: 20px;
+}
+#subscribers{
+	position: relative;
+	top: -1000px;
+	left: 175px;
+	font-size: 15px;
+}
+#subscribe{
+	position: relative;
+	top: -1060px;
+	height: 40px;
+	border-radius: 25px;
+	width: 100px;
+	left: 300px;
+}
+#subscribe:hover{
+	background-color: #b8b8b8;
+}
+#kanal{
+	position: relative;
+	top: -160px;
+}
+#ytb{
+	position: relative;
+	top: -780px;
+	left: 50px;
+}
+#youtube{
+	position: relative;
+	top: -863px;
+	font-size: 23px;
+	left: 130px;
+}
+#video0{
+	position: relative;
+	top: -150px;
+}
+#video1{
+	position: relative;
+	top: -150px;
+}
+#video2{
+	position: relative;
+	top: -150px;
+}
+#video3{
+	position: relative;
+	top: -150px;
+}
+#video4{
+	position: relative;
+	top: -150px;
+}
+#video5{
+	position: relative;
+	top: -150px;
 }
