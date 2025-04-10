@@ -1,91 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="index.css">
-    <script src="https://kit.fontawesome.com/6396e25432.js" crossorigin="anonymous"></script>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Morry | Video stránka</title>
+	<link rel="stylesheet" href="index.css" />
+	<script src="https://kit.fontawesome.com/6396e25432.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
-	<video src="" id="video"></video>
-	
-	<input type="text" id="search">
-	<div id="microphone">
-		<i class="fa-solid fa-microphone fa-2x" id="microphone1"></i>
+	<header class="header">
+		<div class="left">
+			<div class="menu-icon">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+			<i class="fab fa-youtube youtube-icon"></i>
+			<span class="logo-text">YouTube</span>
+		</div>
+
+		<div class="search-bar">
+			<input type="text" placeholder="Hledat..." />
+			<i class="fas fa-microphone"></i>
+		</div>
+	</header>
+
+	<main class="main-container">
+
+		<div class="video-box">
+			<video controls poster="thumbnail.jpg">
+				<source src="video.mp4" type="video/mp4" />
+				Video nelze přehrát.
+			</video>
+		</div>
+
+		<h1 class="video-title">BEZDOMOVEC NA 24 HODIN | Morry REAGUJE na <a href="#">@OGY</a></h1>
+
+		<div class="channel-info">
+			<img src="pfp.png" alt="Profilovka" class="pfp" />
+			<div class="channel-text">
+				<p class="channel-name">Morry Twitch</p>
+				<p class="subs">156k odběratelů</p>
+			</div>
+			<button class="subscribe-btn">Odebírat</button>
+		</div>
+		
+	<div class="video-actions">
+		<button class="like-btn">
+			<i class="fa-solid fa-thumbs-up fa-2xl"></i>
+		</button>
+		<button class="dislike-btn">
+			<i class="fa-solid fa-thumbs-down fa-2xl"></i>
+		</button>
 	</div>
-	
-	
-	<a>
-		<div id="line1"></div>
-		<div id="line2"></div>
-		<div id="line3"></div>
-	</a>
-	<i class="fa-brands fa-youtube fa-4x" style="color: #ff0000;" id="ytb"></i>
-	<h5 id="youtube">YouTube</h5>
-	
-	
-	<a href="index.html" id="video0">
-		<div id="minVid01">
-			<p id="minVid02">Nazev 1 Videa</p>
-			<p id="minVid03">Nazev kanalu</p>
-			<p id="minVid04">100k views | 12 days ago</p>
-			<img id="minVid05" src="">
-		</div>
-	</a>
-		
-	
-	<a href="index.html" id="video1">
-		<div id="minVid11">
-			<p id="minVid12">Nazev 2 Videa</p>
-			<p id="minVid13">Nazev kanalu</p>
-			<p id="minVid14">254k views | 12 days ago</p>
-			<img id="minVid15" src="">
-		</div>
-	</a>
 
 
-	<a href="index.html" id="video2">
-		<div id="minVid21">
-			<p id="minVid22">Nazev 3 Videa</p>
-			<p id="minVid23">Nazev kanalu</p>
-			<p id="minVid24">356k views | 12 days ago</p>
-			<img id="minVid25" src="">
+		<div class="description">
+			<p><strong>110k zhlédnutí • před 6 měsíci</strong></p>
+			<p>Toto video je součástí reakční série na videa od <a href="#">@OGY</a>. Pokud se ti to líbí, nezapomeň dát like a odběr! 👍</p>
 		</div>
-	</a>	
 
+	</main>
 
-	<a href="index.html" id="video3">
-		<div id="minVid31">
-			<p id="minVid32">Nazev 4 Videa</p>
-			<p id="minVid33">Nazev kanalu</p>
-			<p id="minVid34">526k views | 12 days ago</p>
-			<img id="minVid35" src="">
-		</div>
-	</a>	
-	
-	
-	<a href="index.html" id="video4">
-		<div id="minVid41">
-			<p id="minVid42">Nazev 5 Videa</p>
-			<p id="minVid43">Nazev kanalu</p>
-			<p id="minVid44">783k views | 12 days ago</p>
-			<img id="minVid45" src="">
-		</div>
-	</a>	
-		
-	
-	<h4 id="nazev">Nazev hlavniho videa</h4>
-	<a>
-		<div id="kanal">
-			<img id="pfp">
-			<p id="nazev1">Nazev Kanalu</p>
-			<p id="subscribers">160k subscribers</p>
-			<button id="subscribe">Subscribe</button>
-		</div>
-	</a>
-
-	<script href="index.js" defer></script>
 </body>
 </html>
+

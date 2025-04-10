@@ -1,262 +1,164 @@
-#line1{
-	position: relative;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+body {
+	background-color: #f9f9f9;
+	color: #0f0f0f;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 30px;
+	background-color: #fff;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+}
+.left {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+.menu-icon div {
 	width: 25px;
 	height: 3px;
-	background-color: black;
-	top: -733px;
+	background-color: #000;
+	margin: 3px 0;
 }
-#line2{
-	position: relative;
-	width: 25px;
-	height: 3px;
-	background-color: black;
-	top: -744px;
+.youtube-icon {
+	color: red;
+	font-size: 28px;
 }
-#line3{
-	position: relative;
-	width: 25px;
-	height: 3px;
-	background-color: black;
-	top: -755px;
-}
-#video {
-	position: relative;
-	background-color: black;
-	width: 1300px;
-	height: auto;
-	left: 100px;
-	top: 100px;
-	border-radius: 20px;
-}
-#search {
-	position: relative;
-	background-color: gray;
-	border-radius: 40px;
-	width: 700px;
-	height: 40px;
-	top: -630px;
-	left: 500px;
-	font-size: 25px;
-}
-#microphone{
-	position: relative;
-	background-color: gray;
-	width: 60px;
-	height: 60px;
-	border-radius: 50px;
-	top: -685px;
-	left: 1250px;
-}	
-#microphone1 {
-	position: relative;
-	left: 18px;
-	top: 13px;
-}
-#minVid01{
-	position: relative;
-	background-color: black;
-	width: 230px;
-	height: 150px;
-	border-radius: 20px;
-	left: 1450px;
-	top: -680px;
-}
-#minVid02{
-	position: relative;
-	font-size: 25px;
-	left: 250px;
-	color: black;
-}
-#minVid03{
-	position: relative;
-	left: 250px;
-	top: -15px;
-	color: black;
-}
-#minVid04{
-	position: relative;
-	left: 250px;
-	top: -20px;
-	color: black;
-}
-#minVid11{
-	position: relative;
-	background-color: black;
-	width: 230px;
-	height: 150px;
-	border-radius: 20px;
-	left: 1450px;
-	top: -680px;
-}
-#minVid12{
-	position: relative;
-	font-size: 25px;
-	left: 250px;
-	color: black;
-}
-#minVid13{
-	position: relative;
-	left: 250px;
-	top: -15px;
-	color: black;
-}
-#minVid14{
-	position: relative;
-	left: 250px;
-	top: -20px;
-	color: black;
-}
-#minVid21{
-	position: relative;
-	background-color: black;
-	width: 230px;
-	height: 150px;
-	border-radius: 20px;
-	left: 1450px;
-	top: -680px;
-}
-#minVid22{
-	position: relative;
-	font-size: 25px;
-	left: 250px;
-	color: black;
-}
-#minVid23{
-	position: relative;
-	left: 250px;
-	top: -15px;
-	color: black;
-}
-#minVid24{
-	position: relative;
-	left: 250px;
-	top: -20px;
-	color: black;
-}
-#minVid31{
-	position: relative;
-	background-color: black;
-	width: 230px;
-	height: 150px;
-	border-radius: 20px;
-	left: 1450px;
-	top: -680px;
-}
-#minVid32{
-	position: relative;
-	font-size: 25px;
-	left: 250px;
-	color: black;
-}
-#minVid33{
-	position: relative;
-	left: 250px;
-	top: -15px;
-	color: black;
-}
-#minVid34{
-	position: relative;
-	left: 250px;
-	top: -20px;
-	color: black;
-}
-#minVid41{
-	position: relative;
-	background-color: black;
-	width: 230px;
-	height: 150px;
-	border-radius: 20px;
-	left: 1450px;
-	top: -680px;
-}
-#minVid42{
-	position: relative;
-	font-size: 25px;
-	left: 250px;
-	color: black;
-}
-#minVid43{
-	position: relative;
-	left: 250px;
-	top: -15px;
-	color: black;
-}
-#minVid44{
-	position: relative;
-	left: 250px;
-	top: -20px;
-	color: black;
-}
-#nazev{
-	position: relative;
-	top: -1070px;
-	font-size: 35px;
-	left: 100px;
-}
-#pfp{
-	position: relative;
-	background: black;	
-	border-radius: 50px;
-}
-#nazev1{
-	position: relative;
-	top: -990px;
-	left: 175px;
+.logo-text {
+	font-weight: bold;
 	font-size: 20px;
 }
-#subscribers{
-	position: relative;
-	top: -1000px;
-	left: 175px;
+.search-bar {
+	display: flex;
+	align-items: center;
+	background-color: #e4e4e4;
+	padding: 5px 15px;
+	border-radius: 30px;
+}
+.search-bar input {
+	border: none;
+	background: none;
+	outline: none;
+	width: 300px;
+	font-size: 16px;
+}
+.search-bar i {
+	margin-left: 10px;
+	color: #555;
+	cursor: pointer;
+}
+.main-container {
+	max-width: 1000px;
+	margin: 40px auto;
+	padding: 0 20px;
+}
+.video-box video {
+	width: 100%;
+	border-radius: 15px;
+	background-color: black;
+}
+.video-title {
+	font-size: 26px;
+	margin: 20px 0 15px;
+}
+.channel-info {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	margin-bottom: 20px;
+}
+.pfp {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.channel-text .channel-name {
+	font-weight: bold;
+	font-size: 18px;
+}
+.channel-text .subs {
+	font-size: 14px;
+	color: #555;
+}
+
+.subscribe-btn {
+	background-color: red;
+	color: white;
+	border: none;
+	border-radius: 20px;
+	padding: 10px 20px;
 	font-size: 15px;
+	cursor: pointer;
+	transition: background-color 0.3s;
 }
-#subscribe{
+.subscribe-btn:hover {
+	background-color: #b10000;
+}
+.description {
+	background-color: #e6e6e6;
+	border-radius: 15px;
+	padding: 20px;
+	line-height: 1.6;
+	font-size: 16px;
+}
+.description a {
+	color: #000;
+	text-decoration: underline;
+}
+@media (max-width: 768px) {
+	.search-bar input {
+		width: 150px;
+	}
+
+	.channel-info {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.subscribe-btn {
+		width: 100%;
+		text-align: center;
+		margin-top: 10px;
+	}
+}
+.video-actions {
+	display: flex;
+	gap: 15px;
+	margin-bottom: 20px;
+}
+
+.video-actions button {
+	background-color: #e0e0e0;
+	border: none;
+	border-radius: 20px;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 15px;
 	position: relative;
-	top: -1060px;
-	height: 40px;
-	border-radius: 25px;
-	width: 100px;
-	left: 300px;
+	left: 325px;
+	top: -65px;
 }
-#subscribe:hover{
-	background-color: #b8b8b8;
+
+.video-actions button:hover {
+	background-color: #cccccc;
 }
-#kanal{
-	position: relative;
-	top: -160px;
+
+.video-actions i {
+	color: #000;
 }
-#ytb{
-	position: relative;
-	top: -780px;
-	left: 50px;
-}
-#youtube{
-	position: relative;
-	top: -863px;
-	font-size: 23px;
-	left: 130px;
-}
-#video0{
-	position: relative;
-	top: -150px;
-}
-#video1{
-	position: relative;
-	top: -150px;
-}
-#video2{
-	position: relative;
-	top: -150px;
-}
-#video3{
-	position: relative;
-	top: -150px;
-}
-#video4{
-	position: relative;
-	top: -150px;
-}
-#video5{
-	position: relative;
-	top: -150px;
-}
+
